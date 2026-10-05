@@ -1,47 +1,50 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1XV6Meim)
-# Projet Web 2025 - Groupe XX
+# Web Shop API
 
-Ce repository GitHub reprend le boilerplate de votre projet web, c'est à dire la base de code à partir de laquelle vous allez travailler.
+REST API for an online shop, built as a group project for the Web course at IPL Vinci (Haute École Léonard de Vinci, Brussels), 2025.
 
-## Apprentissage de Git et GitHub
+## Features
 
-Suivez le document d'installation du projet et les vidéos proposé sur moodle pour apprendre à utiliser Git et GitHub durant votre projet. Vous devrez utiliser ces outils pour collaborer entre étudiants du même groupe. Faites des commits fréquents !
+- **Products and categories**: list, create, update and delete products, grouped by category.
+- **Users**: client and admin roles, with permission checks on protected actions.
+- **Orders**: create orders with several items and follow their status (new, processing, shipped, delivered, cancelled).
+- **Support tickets**: open a ticket linked to an order and track it (open, in progress, closed).
+- **Error logging**: errors are written to `logs/error.log`.
 
-## Installation du projet
+## Tech stack
 
-Commencez par ouvrir un terminal. Attention, il faut utiliser le terminal Git Bash sur Windows, au lieu de cmd ou de PowerShell. Lancez ensuite la commande :
+- TypeScript
+- Node.js, Express
+- SQLite (better-sqlite3)
 
-```sh
-bash install.sh
+## Project structure
+
+```text
+src/
+├── controllers/   # Express routes (/products, /categories, /users, /orders, /tickets)
+├── services/      # Business logic and database queries
+├── models/        # TypeScript types
+└── utils/         # Data validation (type guards) and helpers
+db/db_install.sql  # Database schema and sample data
+http/              # HTTP requests to test the API
 ```
 
-Cette commande va créer la base de données, suivant le script `db_install.sql` correspondant à la correction de la deuxième soumission. Il va également télécharger les dépendances du projet avec `npm install`.
+## Run the project
 
-## Lancer le projet
+Use Git Bash on Windows.
 
-Une fois que le projet est préparé tel qu'expliqué dans la section précédente, vous pouvez travailler dedans à votre guise et le lancer tel que vu dans le cours de web 1 :
-
-```sh
-npm run build
+```bash
+bash install.sh   # creates the SQLite database and installs dependencies
+npm run build     # compiles TypeScript (watch mode)
 ```
 
-Et dans un autre terminal :
+In another terminal:
 
-```sh
+```bash
 npm run dev
 ```
 
-## Préparation de la soumission
+## Team
 
-Lorsque vous voudrez soumettre votre projet, utilisez la commande suivante dans un terminal (Git Bash et pas cmd ou PowerShell sur Windows) ouvert à la racine du projet :
-
-```bash
-bash submit.sh
-```
-
-Cette commande crée une archive ZIP nommée `final_submission_FIRSTNAME_LASTNAME.zip`, contenant les fichiers du projet que vous devez soumettre et en évitant les fichiers qui ne doivent pas être inclus.
-
-## Membres
-HAJJI Zahra
-Simon Storme
-KAJEWSKI Adrian
+- Zahra Hajji
+- Simon Storme
+- Adrian Kajewski
