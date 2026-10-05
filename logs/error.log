@@ -1,0 +1,298 @@
+2025-04-21T16:11:04.406Z - You don't have permission to do this
+2025-04-21T16:11:09.490Z - You don't have permission to do this
+2025-04-22T08:57:58.032Z - Orders not found
+2025-04-22T09:48:30.793Z - Orders not found
+2025-04-22T10:22:02.105Z - Order not found
+2025-04-22T10:22:20.729Z - Order not found
+2025-04-22T10:23:13.035Z - Order not found
+2025-04-22T10:23:20.713Z - Order not found
+2025-04-22T10:25:01.925Z - Order not found
+2025-04-22T10:25:53.020Z - Orders not found
+2025-04-22T10:27:03.465Z - Order not found
+2025-04-23T12:02:51.160Z - near "AND": syntax error
+2025-04-23T12:05:01.450Z - near "AND": syntax error
+2025-04-23T12:06:14.874Z - near "AND": syntax error
+2025-04-26T08:51:39.203Z - idUser must be a positif numbre
+2025-04-26T08:54:00.991Z - invalid data for idUser
+2025-04-26T08:59:59.677Z - Product not found
+2025-04-26T09:03:09.111Z - FOREIGN KEY constraint failed
+2025-04-26T09:03:09.112Z - Internal error while inserting product
+2025-04-26T09:03:47.447Z - FOREIGN KEY constraint failed
+2025-04-26T09:03:47.448Z - Internal error while inserting product
+2025-04-26T09:03:48.359Z - FOREIGN KEY constraint failed
+2025-04-26T09:03:48.360Z - Internal error while inserting product
+2025-04-26T09:58:19.386Z - FOREIGN KEY constraint failed
+2025-04-26T09:58:19.387Z - Internal error while inserting product
+2025-04-27T07:32:59.871Z - Product not found
+2025-04-27T07:35:15.647Z - Product not found
+2025-04-27T07:35:43.574Z - Product not found
+2025-04-27T07:36:03.406Z - Product not found
+2025-04-27T07:36:34.380Z - Product not found
+2025-04-27T07:40:04.444Z - Product not found
+2025-04-27T07:40:41.812Z - Product not found
+2025-04-27T07:41:40.401Z - Product not found
+2025-04-27T07:43:04.111Z - Product not found
+2025-04-27T07:43:05.755Z - Product not found
+2025-04-27T07:45:28.204Z - Product not found
+2025-04-27T07:46:30.663Z - Product not found
+2025-04-27T07:46:50.378Z - Product not found
+2025-04-27T07:47:55.666Z - invalid data in orderItem
+2025-04-27T07:49:08.569Z - Product not found
+2025-04-27T07:50:36.289Z - Product not found
+2025-04-27T07:56:18.483Z - NOT NULL constraint failed: order_items.product
+2025-04-27T07:58:24.801Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:12:39.167Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:15:52.390Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:16:46.556Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:17:49.367Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:18:34.078Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:19:03.525Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:22:36.230Z - NOT NULL constraint failed: order_items.order_fk
+2025-04-27T08:29:51.852Z - table order_items has no column named unitPrice
+2025-04-27T08:31:24.696Z - table order_items has no column named unitPrice
+2025-04-27T08:33:01.387Z - table order_items has no column named unitPrice
+2025-04-27T08:33:04.954Z - table order_items has no column named unitPrice
+2025-04-27T08:34:18.762Z - table order_items has no column named unitPrice
+2025-04-27T08:34:26.906Z - table order_items has no column named unitPrice
+2025-04-27T08:35:04.570Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:35:11.713Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:36:41.948Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:38:34.650Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:39:21.226Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:41:11.521Z - NOT NULL constraint failed: order_items.product
+2025-04-27T08:44:36.288Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:47:28.985Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:50:36.163Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:50:48.528Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:56:30.177Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:56:34.109Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:58:03.775Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T08:59:28.064Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T09:05:37.584Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-27T09:13:02.243Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-29T16:57:24.880Z - access not allowed
+2025-04-29T16:59:58.213Z - Order not found
+2025-04-29T17:04:18.285Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-29T17:04:33.620Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-29T17:08:47.180Z - UNIQUE constraint failed: order_items.order_fk, order_items.product
+2025-04-30T07:36:14.339Z - OrderItem not found
+2025-04-30T07:39:06.013Z - access not allowed
+2025-04-30T07:39:28.420Z - OrderItem not found
+2025-04-30T07:40:26.197Z - OrderItem not found
+2025-04-30T07:44:13.307Z - OrderItem not found
+2025-04-30T07:44:36.824Z - OrderItem not found
+2025-04-30T07:48:17.488Z - Order not found
+2025-04-30T07:53:06.847Z - access not allowed
+2025-04-30T09:25:06.291Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:26:19.137Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:27:16.798Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:28:35.865Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:30:40.533Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:37:46.317Z - access not allowed
+2025-04-30T09:42:57.164Z - access not allowed
+2025-04-30T09:43:08.036Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:45:33.788Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:46:06.292Z - access not allowed
+2025-04-30T09:46:25.915Z - access not allowed
+2025-04-30T09:47:59.118Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:48:36.755Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-04-30T09:48:49.297Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-05-01T14:13:50.090Z - Order not found
+2025-05-01T14:16:30.937Z - Order not found
+2025-05-01T14:17:27.124Z - Order not found11111
+2025-05-01T14:18:23.208Z - Order not found
+2025-05-01T14:19:38.133Z - Order not found
+2025-05-01T14:19:52.482Z - Order not found
+2025-05-01T14:20:23.096Z - Order not found
+2025-05-01T14:20:38.963Z - Order not found
+2025-05-01T14:21:33.907Z - Orders not found
+2025-05-01T14:23:11.312Z - Order not found
+2025-05-01T14:36:30.150Z - OrderItem not found
+2025-05-01T14:37:46.470Z - order already finalized
+2025-05-01T14:38:31.347Z - order already finalized
+2025-05-01T14:38:45.083Z - OrderItem not found
+2025-05-01T14:40:01.158Z - OrderItem not found
+2025-05-01T14:40:04.370Z - OrderItem not found
+2025-05-01T14:42:35.315Z - Product not already add
+2025-05-01T14:42:58.966Z - OrderItem not found
+2025-05-01T14:43:38.741Z - Order not found
+2025-05-01T14:43:46.920Z - order already finalized
+2025-05-02T14:39:52.851Z - Access denied
+2025-05-02T14:40:48.013Z - Access denied
+2025-05-02T14:57:25.161Z - Order not found
+2025-05-02T14:59:49.264Z - Access denied
+2025-05-02T15:00:56.753Z - Access denied
+2025-05-02T15:01:42.575Z - Access denied
+2025-05-02T15:12:19.379Z - Access denied
+2025-05-02T15:13:34.776Z - Access denied
+2025-05-02T15:14:25.664Z - Access denied
+2025-05-02T15:14:29.679Z - Access denied
+2025-05-03T12:49:16.678Z - Order not found
+2025-05-03T12:51:27.058Z - Order not found
+2025-05-03T12:52:58.229Z - Order not found
+2025-05-03T12:53:02.961Z - Order not found
+2025-05-03T13:22:40.555Z - Product already add
+2025-05-03T13:23:01.740Z - Product not found
+2025-05-03T13:23:14.963Z - Order not found
+2025-05-03T13:25:49.342Z - Product already add
+2025-05-03T13:32:45.202Z - order already finalized
+2025-05-03T13:37:32.648Z - access not allowed
+2025-05-03T13:37:47.912Z - Order not found
+2025-05-03T13:38:00.976Z - Product not already add
+2025-05-03T13:38:53.528Z - Order not found
+2025-05-04T09:31:58.788Z - You don't have an authorisation to do that
+2025-05-04T09:32:04.669Z - Bad request
+2025-05-04T09:32:11.451Z - You don't have an authorisation to do that
+2025-05-04T09:37:51.648Z - Bad request
+2025-05-04T09:38:05.910Z - Bad request
+2025-05-04T09:38:07.043Z - Bad request
+2025-05-04T09:38:25.651Z - Couldn't find the id
+2025-05-04T09:38:30.591Z - You don't have an authorisation to do that
+2025-05-04T10:10:57.414Z - You don't have an authorisation to do that
+2025-05-04T10:13:04.405Z - table tickets has no column named order_id
+2025-05-04T10:14:46.569Z - You don't have an authorisation to do that
+2025-05-04T10:15:00.871Z - table tickets has no column named order_id
+2025-05-04T10:18:58.749Z - table tickets has no column named order_id
+2025-05-04T10:22:19.753Z - table tickets has no column named order_id
+2025-05-04T10:22:20.726Z - table tickets has no column named order_id
+2025-05-04T10:22:22.248Z - table tickets has no column named order_id
+2025-05-04T10:22:22.449Z - table tickets has no column named order_id
+2025-05-04T10:22:22.633Z - table tickets has no column named order_id
+2025-05-04T10:22:22.812Z - table tickets has no column named order_id
+2025-05-04T10:22:23.008Z - table tickets has no column named order_id
+2025-05-04T10:24:27.049Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:24:28.072Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:30:23.806Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:31:56.601Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:31:56.603Z - Ticket payload:[object Object]
+2025-05-04T10:34:49.348Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:34:49.349Z - Ticket payload: {"title":"Ticket 1","description":"Description of Ticket 1","orderId":2}
+2025-05-04T10:34:50.736Z - NOT NULL constraint failed: tickets.order_fk
+2025-05-04T10:34:50.738Z - Ticket payload: {"title":"Ticket 1","description":"Description of Ticket 1","orderId":2}
+2025-05-04T10:37:24.833Z - You don't have an authorisation to do that
+2025-05-04T10:37:31.087Z - You don't have an authorisation to do that
+2025-05-04T10:38:02.515Z - Bad request
+2025-05-04T10:41:22.640Z - You don't have an authorisation to do that
+2025-05-04T11:17:01.565Z - You don't have permission to do this
+2025-05-04T11:35:09.694Z - You don't have permission to do this
+2025-05-04T11:40:06.571Z - You don't have permission to do this
+2025-05-04T12:15:40.115Z - You don't have permission to do this
+2025-05-04T12:16:33.962Z - You don't have permission to do this
+2025-05-04T12:19:26.221Z - You don't have permission to do this
+2025-05-04T12:19:35.617Z - You don't have permission to do this
+2025-05-04T12:19:44.578Z - You don't have permission to do this
+2025-05-05T08:14:00.911Z - OrderItem not found
+2025-05-05T08:14:32.843Z - OrderItem not found
+2025-05-05T08:18:42.738Z - Order not found
+2025-05-05T08:19:17.274Z - Product not already add
+2025-05-05T08:23:14.265Z - Product do not
+2025-05-05T08:23:56.829Z - Product do not exist
+2025-05-05T08:24:27.037Z - Product not already add
+2025-05-05T08:24:45.336Z - Order not found
+2025-05-05T08:25:20.657Z - Order not found
+2025-05-05T08:25:22.673Z - Order not found
+2025-05-05T08:25:51.247Z - Order not found
+2025-05-05T08:43:23.368Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-05-05T08:46:14.899Z - Order not found
+2025-05-05T08:50:21.478Z - Order not found
+2025-05-05T09:00:34.824Z - Order not found
+2025-05-05T09:00:35.917Z - Order not found
+2025-05-05T09:00:58.784Z - The status must be NEW, PROCESSING, SHIPPED, DELIVERED or CANCELED
+2025-05-05T09:17:28.496Z - The status must be NEW, PROCESSING, SHIPPED, DELIVERED or CANCELED
+2025-05-05T09:19:50.771Z - Access denied
+2025-05-05T09:20:46.516Z - The status must be NEW, PROCESSING, SHIPPED, DELIVERED or CANCELED
+2025-05-05T09:29:57.580Z - Order not found
+2025-05-05T09:30:29.296Z - Order not found
+2025-05-05T09:41:14.841Z - Order not found
+2025-05-05T13:11:52.275Z - Product not already add
+2025-05-06T15:03:44.658Z - You don't have permission to do this
+2025-05-06T15:04:03.611Z - User not found
+2025-05-06T22:41:35.286Z - Invalid body
+2025-05-06T22:42:31.267Z - You don't have permission to do that
+2025-05-06T22:42:54.068Z - You don't have permission to do that
+2025-05-06T22:43:04.454Z - You don't have permission to do that
+2025-05-06T22:43:18.068Z - You don't have permission to do that
+2025-05-07T06:33:11.140Z - OrderItem not found
+2025-05-07T06:33:27.905Z - access not allowed
+2025-05-07T06:44:52.034Z - access not allowed
+2025-05-07T06:45:22.737Z - access not allowed
+2025-05-07T06:45:27.173Z - Product not already add
+2025-05-07T06:45:56.416Z - Access denied
+2025-05-07T06:46:35.668Z - order already finalized
+2025-05-07T06:54:17.530Z - orderItem already add
+2025-05-07T06:55:09.939Z - access not allowed
+2025-05-07T06:55:11.239Z - Product not already add
+2025-05-07T06:55:11.517Z - Product not already add
+2025-05-07T06:55:43.558Z - OrderItem not found
+2025-05-07T06:56:13.341Z - Access denied
+2025-05-07T06:57:05.223Z - access not allowed
+2025-05-07T08:05:31.092Z - no such column: unitPrice
+2025-05-07T08:06:39.371Z - no such column: unit_price
+2025-05-07T08:08:09.827Z - no such column: unit_price
+2025-05-07T08:08:45.930Z - no such column: unit_price
+2025-05-08T08:26:08.115Z - Order not found
+2025-05-08T08:28:32.566Z - Order not found
+2025-05-08T08:28:50.755Z - Order not found or access not allowed : user does not exist or do not match with idClient of the order
+2025-05-08T08:32:20.890Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T08:34:38.711Z - The status must be NEW, PROCESSING, SHIPPED, DELIVERED or CANCELED
+2025-05-08T08:34:47.726Z - CHECK constraint failed: status IN ('NEW','PROCESSING','SHIPPED','DELIVERED','CANCELLED')
+2025-05-08T08:38:01.348Z - The status must be NEW, PROCESSING, SHIPPED, DELIVERED or CANCELED
+2025-05-08T08:38:16.468Z - Order not found
+2025-05-08T08:38:25.171Z - Order not found
+2025-05-08T08:39:00.907Z - Access denied
+2025-05-08T08:39:14.042Z - Access denied
+2025-05-08T08:39:29.075Z - Access denied
+2025-05-08T08:39:41.698Z - Access denied
+2025-05-08T08:39:57.643Z - Access denied
+2025-05-08T08:40:21.364Z - Access denied
+2025-05-08T08:40:31.306Z - Product not already add
+2025-05-08T08:40:52.138Z - Order not found
+2025-05-08T08:41:01.809Z - Access denied
+2025-05-08T08:46:04.178Z - Order not found
+2025-05-08T08:53:37.855Z - Order not found
+2025-05-08T08:54:46.480Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T08:54:55.753Z - Order not found
+2025-05-08T08:55:46.573Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T08:57:26.017Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T08:57:44.800Z - access not allowed
+2025-05-08T08:58:16.497Z - access not allowed
+2025-05-08T09:00:06.494Z - access not allowed, the order is already finelized
+2025-05-08T09:00:08.163Z - access not allowed, the order is already finelized
+2025-05-08T09:00:08.993Z - access not allowed, the order is already finelized
+2025-05-08T09:01:34.823Z - Order already finalized
+2025-05-08T09:02:44.311Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T09:05:02.479Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T09:05:12.415Z - Order not found or access not allowed (user does not exist or do not match with idClient of the order)
+2025-05-08T12:15:51.478Z - Bad request: invalid product model
+2025-05-08T12:22:10.272Z - Unauthorized: only admin can update products
+2025-05-08T12:22:24.925Z - Product not found
+2025-05-08T12:25:28.415Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:25:32.280Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:25:35.788Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:25:40.495Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:26:04.058Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:26:09.262Z - Access denied: not authorized to view unavailable product
+2025-05-08T12:26:48.353Z - Unauthorized: only admin can create products
+2025-05-08T12:27:51.790Z - Unauthorized: only admin can delete products
+2025-05-08T12:28:23.188Z - Access denied: not authorized to view unavailable category
+2025-05-08T12:30:00.158Z - Unauthorized: only admin can create categories
+2025-05-08T12:30:08.285Z - Unauthorized: only admin can create categories
+2025-05-08T12:30:50.698Z - Unauthorized: only admin can update categories
+2025-05-08T14:29:38.882Z - You don't have permission to do this
+2025-05-08T14:29:56.538Z - You don't have permission to do that
+2025-05-08T14:30:00.159Z - You don't have permission to do that
+2025-05-08T14:30:17.135Z - You don't have permission to do this
+2025-05-08T14:30:22.252Z - You don't have permission to do this
+2025-05-08T14:30:27.742Z - You don't have permission to do this
+2025-05-08T14:30:54.362Z - You don't have an authorisation to do that
+2025-05-08T14:30:57.083Z - You don't have an authorisation to do that
+2025-05-08T14:31:17.503Z - Ticket not found
+2025-05-08T14:33:42.738Z - You don't have permission to do this
+2025-05-08T14:35:50.881Z - You don't have permission to do this
+2025-05-08T15:02:59.273Z - invalid data : idUser does not exist
+2025-05-08T15:20:15.212Z - OrderItem not found
+2025-05-08T15:20:43.555Z - OrderItem not found
+2025-05-08T15:25:53.961Z - Product not already add
+2025-05-08T15:29:14.425Z - invalid data : product does not exist
+2025-05-08T15:30:58.937Z - Product not already add
+2025-05-08T15:31:07.408Z - Product does not exist

@@ -1,0 +1,180 @@
+@baseUrl = http://localhost:3000
+
+# Module 1
+
+### GET /products
+GET {{baseUrl}}/products?idUser=1&includeUnavailable=true
+
+### GET /products/:id
+GET {{baseUrl}}/products/1?idUser=1
+
+### GET /products/:id/full
+GET {{baseUrl}}/products/1/full?idUser=1
+
+### POST /products
+POST {{baseUrl}}/products?idUser=1
+Content-Type: application/json
+
+{
+    "name": "Product 1",
+    "description": "Description of Product 1",
+    "price": 100,
+    "categoryId": 2
+}
+
+### PUT /products
+PUT {{baseUrl}}/products?idUser=1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Updated Product 1",
+    "description": "Updated description of Product 1",
+    "price": 150,
+    "categoryId": 2,
+    "status": "AVAILABLE"
+}
+
+### DELETE /products/:id
+DELETE {{baseUrl}}/products/1?idUser=1
+
+
+# Module 2
+
+### GET /categories
+GET {{baseUrl}}/categories?idUser=1&includeUnavailable=true
+
+### GET /categories/:id
+GET {{baseUrl}}/categories/1?idUser=1
+
+### POST /categories
+POST {{baseUrl}}/categories?idUser=1
+Content-Type: application/json
+
+{
+    "name": "Category 1",
+    "description": "Description of Category 1"
+}
+
+### PUT /categories
+PUT {{baseUrl}}/categories?idUser=1
+Content-Type: application/json
+
+{
+    "categoryId": 1,
+    "name": "Updated Category 1",
+    "description": "Updated description of Category 1",
+    "status": "AVAILABLE"
+}
+
+### DELETE /categories/:id
+DELETE {{baseUrl}}/categories/1?idUser=1
+
+
+# Module 3
+
+### POST /users
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe"
+}
+
+### GET /users/:id
+GET {{baseUrl}}/users/2?idUser=1
+
+### PUT /users
+PUT {{baseUrl}}/users?idUser=2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "role": "client",
+    "status": "ENABLED"
+}
+
+### GET /users
+GET  {{baseUrl}}/users?idUser=1
+
+### DELETE /users/:id
+DELETE {{baseUrl}}/users/2?idUser=1
+
+
+# Module 4
+
+### POST /tickets
+POST {{baseUrl}}/tickets?idUser=3
+Content-Type: application/json
+
+{
+    "title": "Ticket 1",
+    "description": "Description of Ticket 1",
+    "orderId": 2
+}
+
+### GET /tickets
+GET {{baseUrl}}/tickets?idUser=1&includeAllUsers=true
+
+### GET /tickets/:id
+GET {{baseUrl}}/tickets/1?idUser=1
+
+### GET /tickets/:id/full
+GET {{baseUrl}}/tickets/1/full?idUser=1
+
+### PUT /tickets/:id/status
+PUT {{baseUrl}}/tickets/4/status?idUser=1
+Content-Type: application/json
+
+{
+    "status": "CLOSED"
+}
+
+
+# Module 5
+
+### POST /orders
+POST {{baseUrl}}/orders?idUser=4
+
+### POST /orders/items
+POST {{baseUrl}}/orders/items?idUser=1
+Content-Type: application/json
+
+{
+    "orderId": 5,
+    "productId": 3,
+    "quantity": 1
+}
+
+### PUT /orders/items
+PUT {{baseUrl}}/orders/items?idUser=1
+Content-Type: application/json
+
+{
+    "orderId": 5,
+    "productId": 5,
+    "quantity": 20
+}
+
+### DELETE /orders/:id/items/:idItem
+DELETE {{baseUrl}}/orders/11/items/3?idUser=1
+
+### PUT /orders/:id/status
+PUT {{baseUrl}}/orders/11/status?idUser=2
+Content-Type: application/json
+
+{
+    "status": "PROCESSING"
+}
+
+### GET /orders
+GET {{baseUrl}}/orders?idUser=1&status=NEW&includeAllUser=true
+
+### GET /orders/:id
+GET {{baseUrl}}/orders/17?idUser=2
+
+### GET /orders/:id/full
+GET {{baseUrl}}/orders/17/full?idUser=2

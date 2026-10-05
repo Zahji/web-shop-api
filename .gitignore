@@ -1,0 +1,14 @@
+.DS_Store
+*.zip
+*.db
+
+exec/
+node_modules/
+
+.vscode/
+.idea/
+.npm/
+
+sqlite/
+zip/
+bzip2/
